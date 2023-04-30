@@ -1,0 +1,26 @@
+package HomeWork;
+
+public class first {
+
+    public static void main(String[] args) {
+
+        System.out.println("First Lvl\n");
+        char c ='G';
+        int i = 89;
+        byte b = 4;
+        short s = 56;
+        float f = 4.7333436F;
+        double d = 4.355453532;
+        long l = 12121;
+        System.out.println("char:"+c+"\ninteger:"+i+"\nbyte:"+b+"\nshort:"+s+"\nfloat:"+f+"\ndouble:"+d+"\nlong:"+l);
+
+
+        System.out.println("\n\nSecond Lvl\n");
+        int A = 125 , B = A%10 , C = A/100, D = A/10%10  ;
+
+        System.out.println(C+"\n"+D+"\n"+B+"\n");
+
+
+
+    }
+}
